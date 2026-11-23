@@ -84,6 +84,118 @@
         "repo": "theaskwhy/storage-cleanup-github-first"
       },
       "description": "Use when a computer is low on disk space from development work \u2014 finding large project folders, making sure anything worth keeping is backed up to GitHub (or cloud storage) first, then removing what will never be used again."
+    },
+    {
+      "name": "mobile-launch-readiness",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/mobile-launch-readiness"
+      },
+      "description": "Review a mobile app for final launch readiness across feature flags, routes, accessibility, offline behavior, store materials, review access, build identity, and device QA."
+    },
+    {
+      "name": "beginner-persona-gap-review",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/beginner-persona-gap-review"
+      },
+      "description": "Synthesize independent beginner-focused reviews into a deduplicated, code-checked gap list and a release disposition; use when assessing onboarding and early user value before expanding scope."
+    },
+    {
+      "name": "claim-verification",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/claim-verification"
+      },
+      "description": "Verify important factual claims with traceable sources, dates, provenance, corroboration, and explicit uncertainty."
+    },
+    {
+      "name": "evidence-first-data-analysis",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/evidence-first-data-analysis"
+      },
+      "description": "Analyze and validate datasets with reproducible, evidence-backed methods. Read-only by default; never fabricate metrics or perform data writes."
+    },
+    {
+      "name": "research-data-qa",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/research-data-qa"
+      },
+      "description": "Independently audit research datasets for structural integrity, evidence and provenance, coverage, contradictions, and readiness, with explicit fail-closed gates."
+    },
+    {
+      "name": "research-spreadsheet-architect",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/research-spreadsheet-architect"
+      },
+      "description": "Design reviewable research tables and spreadsheets with stable schemas, traceable evidence, explicit uncertainty, and reproducible counts."
+    },
+    {
+      "name": "inventory-reconciler",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/inventory-reconciler"
+      },
+      "description": "Compare frozen independent records with a separate read-only catalog and prepare conservative match, conflict, duplicate, and unmatched candidate findings for human review."
+    },
+    {
+      "name": "social-research-reader",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/social-research-reader"
+      },
+      "description": "Read and compare public social content with clear evidence layers, source links, coverage limits, privacy safeguards, and no unauthorized access or unapproved spending."
+    },
+    {
+      "name": "rights-checked-image-download",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/rights-checked-image-download"
+      },
+      "description": "Safely retrieve a small, bounded set of images from a specific public URL when official image sources cannot provide them. Creates source manifests; downloads remain uncleared until a separate rights review."
+    },
+    {
+      "name": "agent-permission-boundaries",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/agent-permission-boundaries"
+      },
+      "description": "Define actions an AI agent may complete independently and actions reserved for explicit human approval, including money, security settings, production, publication, and irreversible changes."
+    },
+    {
+      "name": "risk-based-review-gates",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/risk-based-review-gates"
+      },
+      "description": "Set review effort from change risk, reviewer independence, and exact commit state; use when deciding whether a change needs no review, one review, or a full independent review."
+    },
+    {
+      "name": "decision-ledger",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/decision-ledger"
+      },
+      "description": "Maintain durable owner decisions in one living ledger and one issue thread, including superseded history and a parking lane for future paid work; use before starting work that depends on product or project decisions."
+    },
+    {
+      "name": "project-handoff",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/project-handoff"
+      },
+      "description": "Close out a substantial project session with a source-backed checkpoint, preserved decisions and gates, concrete blockers, and next steps for a new person or agent."
+    },
+    {
+      "name": "open-source-privacy-scan",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/open-source-privacy-scan"
+      },
+      "description": "Scan a project before it becomes public for personal data, confidential names, local paths, credentials, internal tool references, and identifying Git history; use when preparing a repository for public release."
     }
   ]
 }
