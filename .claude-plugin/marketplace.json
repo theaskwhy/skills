@@ -1,0 +1,89 @@
+{
+  "name": "theaskwhy",
+  "owner": {
+    "name": "The Ask Why Company",
+    "url": "https://github.com/theaskwhy"
+  },
+  "plugins": [
+    {
+      "name": "ai-council",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/ai-council"
+      },
+      "description": "Use when a plan or creative decision would benefit from several AI models working independently \u2014 running one brief through multiple assistants (e.g. ChatGPT, Grok, Gemini, an on-device model) and merging the results."
+    },
+    {
+      "name": "app-store-answer-check",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/app-store-answer-check"
+      },
+      "description": "Use before submitting a mobile app to the Apple App Store, Google Play or Samsung Galaxy Store \u2014 to verify privacy labels, data safety, age rating answers and listing claims against what the code actually does."
+    },
+    {
+      "name": "apple-on-device-llm",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/apple-on-device-llm"
+      },
+      "description": "Use when you want to run Apple's free on-device language model (Foundation Models framework, Apple Intelligence Macs) from the command line for short private text tasks such as hooks, captions or summaries."
+    },
+    {
+      "name": "free-video-tools-check",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/free-video-tools-check"
+      },
+      "description": "Use when choosing free tools for making and scheduling short videos \u2014 checking what free tiers of AI video, voice, editing and scheduling tools really allow (credits, watermarks, commercial use) before relying on them."
+    },
+    {
+      "name": "launch-reveal-series",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/launch-reveal-series"
+      },
+      "description": "Use when planning a \"Day N of showing you what we built\" social video series to launch an app or product \u2014 counting features, structuring days, hooks, cliffhangers, per-platform posting and scheduling."
+    },
+    {
+      "name": "parallel-agent-queue",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/parallel-agent-queue"
+      },
+      "description": "Use when coordinating several AI coding/research agents (Codex, Claude Code, Grok, Gemini CLIs or API runs) on one machine \u2014 keeping them busy from a job queue with safe limits, status files and usage planning."
+    },
+    {
+      "name": "reel-editor",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/reel-editor"
+      },
+      "description": "Use when turning long raw footage (B-roll, archive or public-domain video, your own clips) into a short vertical reel or short, or when reviewing one \u2014 picking the moments, where to cut, assembling montages, rhythm, sound, captions, originality and credit."
+    },
+    {
+      "name": "secure-mcp-keys",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/secure-mcp-keys"
+      },
+      "description": "Use when connecting a local MCP server that needs an access token (e.g. a desktop app's automation server) to Claude Code, Codex or other agents \u2014 keeping the token in the macOS Keychain instead of chat, files or shell history."
+    },
+    {
+      "name": "social-account-audit",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/social-account-audit"
+      },
+      "description": "Use when asked to review Instagram, Facebook, TikTok or similar account insights and turn them into a posting plan \u2014 audiences, active times, reach sources, follower trends and what content performs."
+    },
+    {
+      "name": "storage-cleanup-github-first",
+      "source": {
+        "source": "github",
+        "repo": "theaskwhy/storage-cleanup-github-first"
+      },
+      "description": "Use when a computer is low on disk space from development work \u2014 finding large project folders, making sure anything worth keeping is backed up to GitHub (or cloud storage) first, then removing what will never be used again."
+    }
+  ]
+}
